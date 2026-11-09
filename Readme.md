@@ -45,3 +45,4 @@ A `ZeroDivisionError` occurs. The mathematical formula for an average is the sum
 
 3. How would you adapt the program to handle two courses per student?
 I would change the `mark`, `grade`, and `decision` dictionary keys to hold nested data structures. For example, instead of a single integer for `mark`, I would use a nested dictionary: `marks: {"Course1": 85, "Course2": 72}`. The logic for grading, displaying, and generating statistics would then require nested loops to process the data for each course individually.
+:::

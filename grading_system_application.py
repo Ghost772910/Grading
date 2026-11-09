@@ -7,7 +7,7 @@ while True:
     print("3. Class summary")
     print("4. Exit")
     
-    option = input("Choose 1-4: ").strip()
+    option = input("Choose 1-4: ")
     
     if option == "1":
         while True:
